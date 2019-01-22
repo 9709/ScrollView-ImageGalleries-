@@ -15,6 +15,7 @@
 		171CD4A321F69867001186D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CD4A221F69867001186D1 /* main.m */; };
 		171CD4AD21F69867001186D1 /* ScrollView_ImageGalleriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CD4AC21F69867001186D1 /* ScrollView_ImageGalleriesTests.m */; };
 		171CD4B821F69867001186D1 /* ScrollView_ImageGalleriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CD4B721F69867001186D1 /* ScrollView_ImageGalleriesUITests.m */; };
+		171CD4C721F6C151001186D1 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CD4C621F6C151001186D1 /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		171CD4B321F69867001186D1 /* ScrollView-ImageGalleriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView-ImageGalleriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		171CD4B721F69867001186D1 /* ScrollView_ImageGalleriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollView_ImageGalleriesUITests.m; sourceTree = "<group>"; };
 		171CD4B921F69867001186D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171CD4C521F6C151001186D1 /* DetailedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		171CD4C621F6C151001186D1 /* DetailedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				171CD49421F69866001186D1 /* AppDelegate.m */,
 				171CD49621F69866001186D1 /* ViewController.h */,
 				171CD49721F69866001186D1 /* ViewController.m */,
+				171CD4C521F6C151001186D1 /* DetailedViewController.h */,
+				171CD4C621F6C151001186D1 /* DetailedViewController.m */,
 				171CD49921F69866001186D1 /* Main.storyboard */,
 				171CD49C21F69867001186D1 /* Assets.xcassets */,
 				171CD49E21F69867001186D1 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				171CD49821F69866001186D1 /* ViewController.m in Sources */,
 				171CD4A321F69867001186D1 /* main.m in Sources */,
+				171CD4C721F6C151001186D1 /* DetailedViewController.m in Sources */,
 				171CD49521F69866001186D1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
