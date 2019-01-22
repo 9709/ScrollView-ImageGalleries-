@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
+
 @end
 
 @implementation DetailedViewController
@@ -19,7 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.scrollViewDelegate = self;
+    self.scrollView.delegate = self;
+    self.childView.image = self.inputImage;
 }
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+    return self.childView;
+}
+
 
 @end

@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DetailedViewController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic, weak) id <UIScrollViewDelegate> scrollViewDelegate;
+@property (weak, nonatomic) IBOutlet UIImageView *childView;
+@property (nonatomic) UIImage *inputImage;
 
 @end
 
